@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70162400-C2AA-4FD5-9CB1-71EEE34AFF96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hostel_Management_System</RootNamespace>
+    <AssemblyName>Hostel Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.IntegrationServices.ODataConnectionManager, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
+    <Reference Include="Oracle.VsDevTools.EntityFramework.16.0, Version=6.122.19.33, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="Oracle.Web, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminAttendence_MarkInOutAttendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAttendence_MarkInOutAttendence.Designer.cs">
+      <DependentUpon>AdminAttendence_MarkInOutAttendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAttendence_MarkMessAttendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAttendence_MarkMessAttendence.Designer.cs">
+      <DependentUpon>AdminAttendence_MarkMessAttendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAttendence_ViewInOutAttendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAttendence_ViewInOutAttendence.Designer.cs">
+      <DependentUpon>AdminAttendence_ViewInOutAttendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAttendence_ViewMessAttendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAttendence_ViewMessAttendence.Designer.cs">
+      <DependentUpon>AdminAttendence_ViewMessAttendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGYM_AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGYM_AddStudent.Designer.cs">
+      <DependentUpon>AdminGYM_AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGYM_DeleteStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGYM_DeleteStudent.Designer.cs">
+      <DependentUpon>AdminGYM_DeleteStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGYM_EditStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGYM_EditStudent.Designer.cs">
+      <DependentUpon>AdminGYM_EditStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGYM_ViewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGYM_ViewStudent.Designer.cs">
+      <DependentUpon>AdminGYM_ViewStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome_AddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome_AddAdmin.Designer.cs">
+      <DependentUpon>AdminHome_AddAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome_ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome_ChangePassword.Designer.cs">
+      <DependentUpon>AdminHome_ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome_DeleteAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome_DeleteAdmin.Designer.cs">
+      <DependentUpon>AdminHome_DeleteAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome_ViewAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome_ViewAdmin.Designer.cs">
+      <DependentUpon>AdminHome_ViewAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRooms_AddRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRooms_AddRoom.Designer.cs">
+      <DependentUpon>AdminRooms_AddRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRooms_AllocateRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRooms_AllocateRoom.Designer.cs">
+      <DependentUpon>AdminRooms_AllocateRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRooms_DeallocateRooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRooms_DeallocateRooms.Designer.cs">
+      <DependentUpon>AdminRooms_DeallocateRooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRooms_DeleteRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRooms_DeleteRoom.Designer.cs">
+      <DependentUpon>AdminRooms_DeleteRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRooms_EditRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRooms_EditRoom.Designer.cs">
+      <DependentUpon>AdminRooms_EditRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRooms_ViewRooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRooms_ViewRooms.Designer.cs">
+      <DependentUpon>AdminRooms_ViewRooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStudentBills_UpdateHostelBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStudentBills_UpdateHostelBill.Designer.cs">
+      <DependentUpon>AdminStudentBills_UpdateHostelBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStudentBills_UpdateMessBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStudentBills_UpdateMessBill.Designer.cs">
+      <DependentUpon>AdminStudentBills_UpdateMessBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStudentBills_ViewHostelBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStudentBills_ViewHostelBill.Designer.cs">
+      <DependentUpon>AdminStudentBills_ViewHostelBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStudentBills_ViewMessBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStudentBills_ViewMessBill.Designer.cs">
+      <DependentUpon>AdminStudentBills_ViewMessBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStudent_AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStudent_AddStudent.Designer.cs">
+      <DependentUpon>AdminStudent_AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStudent_DeleteStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStudent_DeleteStudent.Designer.cs">
+      <DependentUpon>AdminStudent_DeleteStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStudent_EditStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStudent_EditStudent.Designer.cs">
+      <DependentUpon>AdminStudent_EditStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStudent_ViewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStudent_ViewStudent.Designer.cs">
+      <DependentUpon>AdminStudent_ViewStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVisitor_AddVisitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVisitor_AddVisitor.Designer.cs">
+      <DependentUpon>AdminVisitor_AddVisitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVisitor_DeleteVisitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVisitor_DeleteVisitor.Designer.cs">
+      <DependentUpon>AdminVisitor_DeleteVisitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVisitor_EditVisitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVisitor_EditVisitor.Designer.cs">
+      <DependentUpon>AdminVisitor_EditVisitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVisitor_ViewVisitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVisitor_ViewVisitor.Designer.cs">
+      <DependentUpon>AdminVisitor_ViewVisitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Attendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Attendence.Designer.cs">
+      <DependentUpon>Admin_Attendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_GYM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_GYM.Designer.cs">
+      <DependentUpon>Admin_GYM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Home.Designer.cs">
+      <DependentUpon>Admin_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_HostelExpenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_HostelExpenses.Designer.cs">
+      <DependentUpon>Admin_HostelExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Login.Designer.cs">
+      <DependentUpon>Admin_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Rooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Rooms.Designer.cs">
+      <DependentUpon>Admin_Rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Student.Designer.cs">
+      <DependentUpon>Admin_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_StudentBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_StudentBill.Designer.cs">
+      <DependentUpon>Admin_StudentBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Suggestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Suggestions.Designer.cs">
+      <DependentUpon>Admin_Suggestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Visitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Visitor.Designer.cs">
+      <DependentUpon>Admin_Visitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SA_ViewIOAttendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SA_ViewIOAttendence.Designer.cs">
+      <DependentUpon>SA_ViewIOAttendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SA_ViewMessAttendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SA_ViewMessAttendence.Designer.cs">
+      <DependentUpon>SA_ViewMessAttendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SPF_PayHostelFees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPF_PayHostelFees.Designer.cs">
+      <DependentUpon>SPF_PayHostelFees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SPF_PayMessFees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPF_PayMessFees.Designer.cs">
+      <DependentUpon>SPF_PayMessFees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Attendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Attendence.Designer.cs">
+      <DependentUpon>Student_Attendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_GYM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_GYM.Designer.cs">
+      <DependentUpon>Student_GYM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Home.Designer.cs">
+      <DependentUpon>Student_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Login.Designer.cs">
+      <DependentUpon>Student_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_PayFees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_PayFees.Designer.cs">
+      <DependentUpon>Student_PayFees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Rooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Rooms.Designer.cs">
+      <DependentUpon>Student_Rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Suggestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Suggestions.Designer.cs">
+      <DependentUpon>Student_Suggestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_ViewFees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_ViewFees.Designer.cs">
+      <DependentUpon>Student_ViewFees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SVF_ViewHostelFees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SVF_ViewHostelFees.Designer.cs">
+      <DependentUpon>SVF_ViewHostelFees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SVF_ViewMessFees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SVF_ViewMessFees.Designer.cs">
+      <DependentUpon>SVF_ViewMessFees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Team.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team.Designer.cs">
+      <DependentUpon>Team.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminAttendence_MarkInOutAttendence.resx">
+      <DependentUpon>AdminAttendence_MarkInOutAttendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAttendence_MarkMessAttendence.resx">
+      <DependentUpon>AdminAttendence_MarkMessAttendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAttendence_ViewInOutAttendence.resx">
+      <DependentUpon>AdminAttendence_ViewInOutAttendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAttendence_ViewMessAttendence.resx">
+      <DependentUpon>AdminAttendence_ViewMessAttendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGYM_AddStudent.resx">
+      <DependentUpon>AdminGYM_AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGYM_DeleteStudent.resx">
+      <DependentUpon>AdminGYM_DeleteStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGYM_EditStudent.resx">
+      <DependentUpon>AdminGYM_EditStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGYM_ViewStudent.resx">
+      <DependentUpon>AdminGYM_ViewStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome_AddAdmin.resx">
+      <DependentUpon>AdminHome_AddAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome_ChangePassword.resx">
+      <DependentUpon>AdminHome_ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome_DeleteAdmin.resx">
+      <DependentUpon>AdminHome_DeleteAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome_ViewAdmin.resx">
+      <DependentUpon>AdminHome_ViewAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRooms_AddRoom.resx">
+      <DependentUpon>AdminRooms_AddRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRooms_AllocateRoom.resx">
+      <DependentUpon>AdminRooms_AllocateRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRooms_DeallocateRooms.resx">
+      <DependentUpon>AdminRooms_DeallocateRooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRooms_DeleteRoom.resx">
+      <DependentUpon>AdminRooms_DeleteRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRooms_EditRoom.resx">
+      <DependentUpon>AdminRooms_EditRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRooms_ViewRooms.resx">
+      <DependentUpon>AdminRooms_ViewRooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStudentBills_UpdateHostelBill.resx">
+      <DependentUpon>AdminStudentBills_UpdateHostelBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStudentBills_UpdateMessBill.resx">
+      <DependentUpon>AdminStudentBills_UpdateMessBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStudentBills_ViewHostelBill.resx">
+      <DependentUpon>AdminStudentBills_ViewHostelBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStudentBills_ViewMessBill.resx">
+      <DependentUpon>AdminStudentBills_ViewMessBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStudent_AddStudent.resx">
+      <DependentUpon>AdminStudent_AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStudent_DeleteStudent.resx">
+      <DependentUpon>AdminStudent_DeleteStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStudent_EditStudent.resx">
+      <DependentUpon>AdminStudent_EditStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStudent_ViewStudent.resx">
+      <DependentUpon>AdminStudent_ViewStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVisitor_AddVisitor.resx">
+      <DependentUpon>AdminVisitor_AddVisitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVisitor_DeleteVisitor.resx">
+      <DependentUpon>AdminVisitor_DeleteVisitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVisitor_EditVisitor.resx">
+      <DependentUpon>AdminVisitor_EditVisitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVisitor_ViewVisitor.resx">
+      <DependentUpon>AdminVisitor_ViewVisitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Attendence.resx">
+      <DependentUpon>Admin_Attendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_GYM.resx">
+      <DependentUpon>Admin_GYM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Home.resx">
+      <DependentUpon>Admin_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_HostelExpenses.resx">
+      <DependentUpon>Admin_HostelExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Login.resx">
+      <DependentUpon>Admin_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Rooms.resx">
+      <DependentUpon>Admin_Rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Student.resx">
+      <DependentUpon>Admin_Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_StudentBill.resx">
+      <DependentUpon>Admin_StudentBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Suggestions.resx">
+      <DependentUpon>Admin_Suggestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Visitor.resx">
+      <DependentUpon>Admin_Visitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="SA_ViewIOAttendence.resx">
+      <DependentUpon>SA_ViewIOAttendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SA_ViewMessAttendence.resx">
+      <DependentUpon>SA_ViewMessAttendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPF_PayHostelFees.resx">
+      <DependentUpon>SPF_PayHostelFees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPF_PayMessFees.resx">
+      <DependentUpon>SPF_PayMessFees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Attendence.resx">
+      <DependentUpon>Student_Attendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_GYM.resx">
+      <DependentUpon>Student_GYM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Home.resx">
+      <DependentUpon>Student_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Login.resx">
+      <DependentUpon>Student_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_PayFees.resx">
+      <DependentUpon>Student_PayFees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Rooms.resx">
+      <DependentUpon>Student_Rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Suggestions.resx">
+      <DependentUpon>Student_Suggestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_ViewFees.resx">
+      <DependentUpon>Student_ViewFees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SVF_ViewHostelFees.resx">
+      <DependentUpon>SVF_ViewHostelFees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SVF_ViewMessFees.resx">
+      <DependentUpon>SVF_ViewMessFees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Team.resx">
+      <DependentUpon>Team.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

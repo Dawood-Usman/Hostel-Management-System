@@ -1,0 +1,213 @@
+C:\Users\HP\source\repos\Hostel Management System\bin\Debug\Hostel Management System.exe.config
+C:\Users\HP\source\repos\Hostel Management System\bin\Debug\Hostel Management System.exe
+C:\Users\HP\source\repos\Hostel Management System\bin\Debug\Hostel Management System.pdb
+C:\Users\HP\source\repos\Hostel Management System\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\HP\source\repos\Hostel Management System\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel Management System.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Welcome.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Properties.Resources.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel Management System.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel Management System.exe.licenses
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel Management System.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel Management System.csproj.CopyComplete
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel Management System.exe
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel Management System.pdb
+C:\Users\HP\source\repos\Hostel Management System\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\HP\source\repos\Hostel Management System\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Login.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Login.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Home.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Attendence.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_GYM.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_HostelExpenses.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Rooms.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Student.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_StudentBill.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Suggestions.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Visitor.resources
+C:\Users\HP\source\repos\Hostel Management System\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_AddAdmin.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_ChangePassword.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_DeleteAdmin.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_ViewAdmin.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_MarkInOutAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_MarkMessAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_ViewInOutAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_ViewMessAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_AddStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_DeleteStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_EditStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_ViewStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_AddRoom.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_AllocateRoom.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_DeallocateRooms.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_DeleteRoom.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_EditRoom.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_ViewRooms.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_UpdateHostelBill.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_UpdateMessBill.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_ViewHostelBill.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_ViewMessBill.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_AddStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_DeleteStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_EditStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_ViewStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_AddVisitor.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_DeleteVisitor.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_EditVisitor.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_ViewVisitor.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Home.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Attendence.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Student_GYM.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Rooms.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Student_ViewFees.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Student_PayFees.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Suggestions.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.SA_ViewIOAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.SA_ViewMessAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.SPF_PayHostelFees.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.SPF_PayMessFees.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.SVF_ViewHostelFees.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.SVF_ViewMessFees.resources
+C:\Users\HP\source\repos\Hostel Management System\obj\Debug\Hostel_Management_System.Meet_The_Team.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_MarkInOutAttendence.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_MarkMessAttendence.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_ViewInOutAttendence.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_ViewMessAttendence.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_AddStudent.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_DeleteStudent.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_EditStudent.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_ViewStudent.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_AddAdmin.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_ChangePassword.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_DeleteAdmin.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_ViewAdmin.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_AddRoom.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_AllocateRoom.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_DeallocateRooms.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_DeleteRoom.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_EditRoom.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_ViewRooms.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_UpdateHostelBill.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_UpdateMessBill.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_ViewHostelBill.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_ViewMessBill.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_AddStudent.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_DeleteStudent.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_EditStudent.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_ViewStudent.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_AddVisitor.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_DeleteVisitor.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_EditVisitor.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_ViewVisitor.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Attendence.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_GYM.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Home.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_HostelExpenses.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Login.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Rooms.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Student.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_StudentBill.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Suggestions.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Visitor.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SA_ViewIOAttendence.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SA_ViewMessAttendence.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SPF_PayHostelFees.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SPF_PayMessFees.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Attendence.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_GYM.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Home.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Login.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_PayFees.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Rooms.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Suggestions.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_ViewFees.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SVF_ViewHostelFees.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SVF_ViewMessFees.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Welcome.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Properties.Resources.resources
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.csproj.GenerateResource.cache
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.exe.licenses
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.exe
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.pdb
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.exe.config
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.exe
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.pdb
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.csproj.CopyComplete
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.exe.config
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.exe
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.pdb
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_MarkInOutAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_MarkMessAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_ViewInOutAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminAttendence_ViewMessAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_AddStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_DeleteStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_EditStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminGYM_ViewStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_AddAdmin.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_ChangePassword.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_DeleteAdmin.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminHome_ViewAdmin.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_AddRoom.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_AllocateRoom.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_DeallocateRooms.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_DeleteRoom.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_EditRoom.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminRooms_ViewRooms.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_UpdateHostelBill.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_UpdateMessBill.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_ViewHostelBill.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudentBills_ViewMessBill.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_AddStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_DeleteStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_EditStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminStudent_ViewStudent.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_AddVisitor.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_DeleteVisitor.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_EditVisitor.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.AdminVisitor_ViewVisitor.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Attendence.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_GYM.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Home.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_HostelExpenses.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Login.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Rooms.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Student.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_StudentBill.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Suggestions.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Admin_Visitor.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SA_ViewIOAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SA_ViewMessAttendence.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SPF_PayHostelFees.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SPF_PayMessFees.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Attendence.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_GYM.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Home.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Login.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_PayFees.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Rooms.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_Suggestions.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Student_ViewFees.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SVF_ViewHostelFees.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.SVF_ViewMessFees.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Welcome.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Properties.Resources.resources
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.exe.licenses
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.csproj.CopyComplete
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.exe
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.pdb
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Oracle.DataAccess.dll
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Oracle.VsDevTools.EntityFramework.16.0.dll
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Oracle.Web.dll
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Microsoft.SqlServer.IntegrationServices.ODataConnectionManager.dll
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Microsoft.SqlServer.ManagedDTS.dll
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Microsoft.SqlServer.DTSRuntimeWrap.dll
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Microsoft.SqlServer.PipelineHost.dll
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\bin\Debug\Microsoft.SqlServer.DTSPipelineWrap.dll
+C:\Users\HP\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Team.resources
