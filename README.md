@@ -1,6 +1,6 @@
 # Hostel-Management-System
 
-##Admin-Module
+# Admin-Module
 ![image](https://user-images.githubusercontent.com/110775919/196255102-a8d9d6c2-cd77-4300-b9f6-4708c057a0c4.png)
 ![image](https://user-images.githubusercontent.com/110775919/196255113-04fd4d6f-64f8-495a-8bf2-9d3a1695c978.png)
 ![image](https://user-images.githubusercontent.com/110775919/196255157-44d834b9-15c5-4d5c-9771-bb5fcf64532b.png)
@@ -43,7 +43,7 @@
 ![image](https://user-images.githubusercontent.com/110775919/196255854-fb55c48c-8ddd-4a0b-b1b2-275916bf70d2.png)
 ![image](https://user-images.githubusercontent.com/110775919/196255878-e20d0dd3-f3d2-4d48-bd73-8b47720327a0.png)
 
-##Student-Module
+# Student-Module
 ![image](https://user-images.githubusercontent.com/110775919/196256066-d53a59ed-dc57-4324-9208-c851f5a2c2cd.png)
 ![image](https://user-images.githubusercontent.com/110775919/196256089-99a7da12-46f5-4962-8418-5a029285d6e1.png)
 ![image](https://user-images.githubusercontent.com/110775919/196256116-2e0ea554-e8d2-486a-9d71-dcf78a506998.png)
@@ -60,6 +60,6 @@
 ![image](https://user-images.githubusercontent.com/110775919/196256363-3a9f0b11-c137-44d9-a03c-1836e39383c3.png)
 ![image](https://user-images.githubusercontent.com/110775919/196256380-27a66813-0ae6-4fa7-91d9-0bb7d4b963c6.png)
 
-##MEET THE TEAM
+# MEET-THE-TEAM
 ![image](https://user-images.githubusercontent.com/110775919/196256452-c04d59f8-7dd1-4b24-8aed-9942360486ad.png)
 ![image](https://user-images.githubusercontent.com/110775919/196256467-28cde8b5-afa1-477a-857e-c8dd1dd7221d.png)
