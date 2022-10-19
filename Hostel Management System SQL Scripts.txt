@@ -1,0 +1,242 @@
+CREATE DATABASE Hostel_Management_System;
+
+use Hostel_Management_System;
+
+create table Admin_Login
+(
+UserName Varchar(30) Primary key,
+Password Varchar(30) not null
+);
+
+insert into Admin_Login values('admin','123');
+
+
+Create table Admin
+(
+First_Name Varchar(30) not null,
+Last_Name Varchar(30) not null,
+UserName Varchar(30) Primary key,
+Password Varchar(30) not null,
+Email Varchar(30) not null,
+Phone Varchar(30) not null,
+Cnic Varchar(30) not null,
+Address Varchar(50) not null
+);
+
+
+select * from Admin_login;
+
+delete from Visitor;
+
+
+
+Insert Into Admin Values('dawood','usman', 'dawoodworld', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
+Insert Into Admin Values('Sheraaz','Malik', 'sherry', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
+Insert Into Admin Values('Muhammad','Ali', 'alamorto', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
+Insert Into Admin Values('Uzman','Zahid', 'uzzii', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
+Insert Into Admin Values('Adil','Khan', 'error', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
+Insert Into Admin Values('Asad','Khan', 'jutt', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
+Insert Into Admin Values('Talaal','Amjad', 'talli', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
+
+select * from Admin where UserName = 'dawoodworld';
+
+Create table Student
+(
+Name varchar(30) not null,
+Cnic Varchar(30) not null,
+Roll_No varchar(30) primary key,
+Password varchar(30) not null,
+Contact_No Varchar(30) not null,
+Parents_No Varchar(30) not null,
+Address Varchar(30) not null,
+Gender Varchar(10) not null
+);
+
+Create table Student_Login
+(
+Roll_No Varchar(30) Primary key,
+Password Varchar(30) not null
+);
+
+SELECT * FROM Student where Roll_No = '20F-0298';
+
+SELECT * FROM Student_Login;
+
+delete from Student_Login;
+
+Update Student_Login Set Roll_No = '20F-0266' Where Roll_No = '20F-0298';
+
+Create table Visitor
+(
+Name varchar(30) not null,
+Cnic Varchar(30) not null,
+Visitor_ID varchar(30) primary key,
+Visit_Days varchar(30) not null,
+Contact_No Varchar(30) not null,
+Status Varchar(30) not null,
+Address Varchar(30) not null,
+Gender Varchar(10) not null
+);
+
+Create table GYM
+(
+Name varchar(30) not null,
+Cnic Varchar(30) not null,
+Roll_No varchar(30) primary key,
+Height Float not null,
+Contact_No Varchar(30) not null,
+Weight INT not null,
+Address Varchar(30) not null,
+Gender Varchar(10) not null
+);
+
+DROP TABLE GYM;
+
+select * from GYM;
+
+select * from Visitor;
+
+
+Insert Into Student Values('dawood usman','33301-4939357-9', '20F-0298', '1122', '03366878699', '03336878699', 'Address', 'Male');
+
+Create Table Rooms
+(
+Room_No Varchar(10) Primary Key,
+Hall_Name Varchar(20) not null,
+Floor_No INT not null,
+Room_Strength INT DEFAULT 0 ,
+No_Of_Beds INT not null,
+No_Of_Tables INT not null,
+No_Of_CupBoards INT not null,
+No_Of_Chairs INT not null,
+No_Of_Fans INT not null,
+Status Varchar(20) not null,
+
+check(Room_Strength < 7)
+);
+
+
+
+SELECT * FROM Rooms WHERE Room_No = 'JS-202';
+
+
+Drop table Allocated_Rooms;
+
+Create Table Allocated_Rooms
+(
+Roll_No Varchar(20) UNIQUE NOT NULL,
+Room_No Varchar(20) NOT NULL,
+Bed_No Varchar(20) UNIQUE NOT NULL
+);
+
+Alter Table Allocated_Rooms
+Alter Column Roll_No Varchar(20) unique NOT NULL;
+
+
+
+SELECT * FROM Allocated_Rooms;
+SELECT Room_No, Room_Strength From Rooms Where Room_No = 'JS-202';
+
+Create Table Hostel_Expenses
+(
+Description Varchar(30) not null,
+Account Varchar(30) not null,
+Category Varchar(30) not null,
+Amount INT not null,
+);
+
+DELETE FROM Hostel_Expenses;
+
+INSERT INTO Hostel_Expenses VALUES('Product-1','Credit','Maintenance Charges',25000);
+INSERT INTO Hostel_Expenses VALUES('Product-2','Debit','Repairs Charges',300000);
+INSERT INTO Hostel_Expenses VALUES('Product-3','Cash','Mess Expenses',175000);
+INSERT INTO Hostel_Expenses VALUES('Product-4','Checking','GYM Expenses',69000);
+INSERT INTO Hostel_Expenses VALUES('Product-5','Credit','Maintainance Expense',45000);
+INSERT INTO Hostel_Expenses VALUES('Product-6','Cash','Mess Expenses',175000);
+INSERT INTO Hostel_Expenses VALUES('Product-7','Checking','GYM Expenses',69000);
+INSERT INTO Hostel_Expenses VALUES('Product-8','Credit','Maintainance Expense',45000);
+
+CREATE TABLE InOut_Attendence
+(
+Roll_No Varchar(30) not null,
+Attendence_Type Varchar(30) not null,
+Status Varchar(30) not null,
+A_Date Date not null
+);
+
+CREATE TABLE Mess_Attendence
+(
+Roll_No Varchar(30) not null,
+Meal_Type Varchar(30) not null,
+Status Varchar(30) not null,
+A_Date Date not null
+);
+
+delete from Mess_Attendence;
+
+INSERT INTO Mess_Attendence VALUES('20F-0298','Dinner','Present','2022-01-12');
+INSERT INTO Mess_Attendence VALUES('20F-0298','Dinner','Present','2022-01-12');
+INSERT INTO Mess_Attendence VALUES('20F-0266','Dinner','Present','2022-01-12');
+INSERT INTO Mess_Attendence VALUES('20F-0266','Dinner','Present','2022-01-12');
+INSERT INTO Mess_Attendence VALUES('20F-0277','Dinner','Present','2022-01-12');
+INSERT INTO Mess_Attendence VALUES('20F-0277','Dinner','Present','2022-01-12');
+INSERT INTO Mess_Attendence VALUES('20F-0277','Dinner','Present','2022-01-12');
+INSERT INTO Mess_Attendence VALUES('20F-0288','Dinner','Present','2022-01-12');
+INSERT INTO Mess_Attendence VALUES('20F-0299','Dinner','Present','2022-01-12');
+
+SELECT Roll_No, COUNT(Roll_No) as Meal_Count, (COUNT(Roll_No)*100) as Mess_Bill FROM Mess_Attendence
+GROUP BY Roll_No, status HAVING Status = 'Present';
+
+SELECT * FROM Mess_Attendence Where MONTH(A_Date) = 5 AND YEAR(A_Date) = 2022 AND Roll_No = '20F-0298';
+
+CREATE TABLE Hostel_Fees
+(
+Roll_No Varchar(30) not null,
+Semester Varchar(30) Default '-',
+Amount INT Default 0,
+Status Varchar(30) Default '-',
+Due_Date Date
+);
+
+Drop Table Hostel_Fees;
+
+INSERT INTO Hostel_Fees (Roll_No)
+Select Roll_No FROM Student;
+
+Select * from Hostel_Fees;
+
+Delete from Hostel_Fees;
+
+CREATE TABLE Mess_Fees
+(
+Roll_No Varchar(30) not null,
+Month INT Default 0,
+Total_Amount INT Default 0,
+Status Varchar(30) Default '-',
+Due_Date Date
+);
+
+INSERT INTO Mess_Fees (Roll_No)
+Select Roll_No FROM Student;
+
+update Mess_Fees set Total_Amount = ( SELECT (COUNT(Roll_No)*100) FROM Mess_Attendence GROUP BY Roll_No, status HAVING Status = 'Present' And Mess_Fees.Roll_No = Mess_Attendence.Roll_No);
+
+Alter Table Mess_Fees
+DROP COLUMN Amount_PM;
+
+drop table Mess_Fees;
+
+Select * from Mess_Fees;
+Delete from Mess_Fees;
+
+Select * from Student_Login;
+
+Create Table Suggestions
+(
+Roll_No Varchar(30) Not Null,
+Type Varchar(30) Not Null,
+Suggestion Varchar(500) Not Null
+);
+
+Select * from Suggestions;
+
