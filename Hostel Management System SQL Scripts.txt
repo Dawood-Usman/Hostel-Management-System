@@ -28,16 +28,6 @@ select * from Admin_login;
 
 delete from Visitor;
 
-
-
-Insert Into Admin Values('dawood','usman', 'dawoodworld', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
-Insert Into Admin Values('Sheraaz','Malik', 'sherry', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
-Insert Into Admin Values('Muhammad','Ali', 'alamorto', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
-Insert Into Admin Values('Uzman','Zahid', 'uzzii', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
-Insert Into Admin Values('Adil','Khan', 'error', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
-Insert Into Admin Values('Asad','Khan', 'jutt', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
-Insert Into Admin Values('Talaal','Amjad', 'talli', '1122', 'dawoodusman370@gmail.com', '03366878699', '33301-4939357-9', 'Gojra');
-
 select * from Admin where UserName = 'dawoodworld';
 
 Create table Student
@@ -64,7 +54,6 @@ SELECT * FROM Student_Login;
 
 delete from Student_Login;
 
-Update Student_Login Set Roll_No = '20F-0266' Where Roll_No = '20F-0298';
 
 Create table Visitor
 (
@@ -96,8 +85,6 @@ select * from GYM;
 
 select * from Visitor;
 
-
-Insert Into Student Values('dawood usman','33301-4939357-9', '20F-0298', '1122', '03366878699', '03336878699', 'Address', 'Male');
 
 Create Table Rooms
 (
